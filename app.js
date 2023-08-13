@@ -18,7 +18,7 @@ let addNewTask = () => {
     completeBtn.innerText = "Completed";
     heading.innerText = "Task Added !!!";
     setTimeout(() => {
-        heading.innerText = "Little Step, Achieve big"
+        heading.innerText = "Little Steps, Achieve big"
     }, 3000)
     dltBtn.classList.add("delete");
     dltBtn.classList.add("greenBtn");
@@ -46,7 +46,7 @@ list.addEventListener("click", function (event) {
         if (event.target.textContent === "Completed") {
             heading.innerText = "Congratulations!! You have completed one task"
             setTimeout(() => {
-                heading.innerText = "Little Step, Achive Big"
+                heading.innerText = "Little Steps, Achieve big"
             }, 5000)
         }else{
             heading.innerText = "Task deleted"
