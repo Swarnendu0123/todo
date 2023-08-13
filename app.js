@@ -25,7 +25,7 @@ createtaskBtn.addEventListener("click", addNewTask)
 
 taskName.addEventListener("keypress", (event) => {
     if (event.key === "Enter") {
-        addNewTask
+        addNewTask();
     }
 })
 
