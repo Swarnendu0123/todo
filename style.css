@@ -1,0 +1,53 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(18, 11, 11);
+}
+
+h1 {
+    text-align: center;
+}
+
+.subjectInput {
+    color: white;
+    background-color: rgb(32, 29, 29);
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 5px;
+}
+
+.startTime,
+.endTime {
+    margin: 0px 10px;
+    background-color: rgb(32, 29, 29);
+    border: none;
+    color: inherit;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.startTimings,
+.endingTimings {
+    margin: 10px 10px;
+}
+
+.greenBtn {
+    border: none;
+    height: 30px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: greenyellow;
+}
+
+.list ul li {
+    margin: 10px;
+}

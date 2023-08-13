@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <input
+      type="text"
+      placeholder="Enter your task subject"
+      class="subjectInput"
+    />
+    <div class="startTimings">
+      <label for="startTime">Starting Time:</label>
+      <input type="time" name="startTime" id="startTime" class="startTime" />
+    </div>
+    <div class="endingTimings">
+      <label for="endTime">Ending Time:</label>
+      <input type="time" name="endTime" id="endTime" class="endTime" />
+    </div>
+    <button class="createTask greenBtn">Create Task</button>
+    <div class="list">
+      <ul>
+        <li>
+          Task 1 <span>00:00 - 00:00</span>
+          <button class="delete greenBtn">Delete</button>
+        </li>
+        <li>
+          Task 2 <span>00:00 - 00:00</span>
+          <button class="delete greenBtn">Delete</button>
+        </li>
+        <li>
+          Task 3 <span>00:00 - 00:00</span>
+          <button class="delete greenBtn">Delete</button>
+        </li>
+      </ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
